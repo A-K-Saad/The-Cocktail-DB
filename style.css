@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+body{
+    background: radial-gradient(#00000934, #000000a8), url(https://yumacha.co.uk/wp-content/uploads/2015/02/cosmo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.navbar-brand img{
+    width: 5.5rem;
+}
+.main-title{
+    font-family: 'Fredoka One', cursive;
+    background: linear-gradient(#ff2300, #ff9d28);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.error-img{
+    width: 11rem;
+}
+@media screen and (max-width: 688px) {
+    .navbar-brand img{
+        width: 2.5rem;
+    }
+}
